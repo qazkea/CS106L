@@ -33,7 +33,7 @@ void stream2() {
 }
 
 int stringToInteger(const string& s) {
-    istringstream iss(s);
+    istringstream iss(s);   
     printStateBits(iss);
     int res;
     iss >> res;
@@ -57,6 +57,5 @@ int main() {
    // stream2();
 
     cout << stringToInteger("a45") << endl;
-
     return 0;
 }
